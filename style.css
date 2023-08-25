@@ -1,5 +1,6 @@
 .nav {
     display: flex;
+    justify-content: flex-end;
   }
 
   .nav li {
@@ -9,6 +10,15 @@
   }
   
   .nav a {
-    color: inherit;
+    color: white;
     text-decoration: none;
   }
+body{
+  background-color: #094458;
+}
+h1, h2, h4{
+  color: white;
+}
+p{
+  color: beige;
+}
