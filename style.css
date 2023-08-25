@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+  }
+
+  .nav li {
+    list-style: none;
+    margin: 25px;
+    border: 1px black solid;
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+  }
