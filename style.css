@@ -2,42 +2,67 @@
   display: flex;
   justify-content: flex-end;
   }
-
 .nav li {
   list-style: none;
   margin: 25px;
-  border: 1px black solid;
-  }
-  
+  border: 0;
+  }  
 .nav a {
   color: white;
   text-decoration: none;
   }
-  
+ 
 body{
-  background-color: #094458;
+  background-color: #373A5B;
 }
-
-h1, h2, h4{
-  color: white;
-}
-
-p{
-  color: beige;
-}
-
 button{
   border-radius: 8%;
 }
-
+.apresentacao h1{
+  color: white;
+}
+.apresentacao p{
+  color: #EF4C4D;
+}
 .sobre{
   justify-content: center;
   width: 50%;
+  align-items: center;
+}
+.sobre h1{
+  color: black;
+}
+.sobre h4{
+  color: gray;
 }
 .descricao{
   justify-content: center;
   width: 50%;
+  background-color: #EF4C4D;
+  padding: 3%;
+}
+.descricao p{
+  color: white;
+}
+.dev_fe{
+  justify-content: center;
+  width: 50%;
+}
+.dev_py{
+  justify-content: center;
+  width: 50%; 
 }
 .descricao_container{
   display: flex;
+  background-color: white;
+}
+.skill{
+  display: flex;
+  background-color: white;
+}
+.skill h3{
+  color: black;
+}
+.skill h2{
+  color: #EF4C4D;
 }
