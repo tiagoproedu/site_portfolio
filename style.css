@@ -30,13 +30,14 @@ button{
   border-radius: 8%;
 }
 
-.sobre1{
-  display: block;
-  align-content: end;
-  background-color:  black;
-}
-.sobre2{
-  display: block;
+.sobre{
   justify-content: center;
-  background-color: white;
+  width: 50%;
+}
+.descricao{
+  justify-content: center;
+  width: 50%;
+}
+.descricao_container{
+  display: flex;
 }
