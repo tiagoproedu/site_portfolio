@@ -11,12 +11,8 @@
   color: white;
   text-decoration: none;
   }
- 
 body{
   background-color: #373A5B;
-}
-button{
-  border-radius: 8%;
 }
 .apresentacao h1{
   color: white;
@@ -24,45 +20,55 @@ button{
 .apresentacao p{
   color: #EF4C4D;
 }
-.sobre{
+#sobre{
+  display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 50%;
   align-items: center;
+  padding: 3%;
 }
-.sobre h1{
+#sobre h1{
   color: black;
 }
-.sobre h4{
+#sobre h4{
   color: gray;
 }
-.descricao{
+#descricao{
+  display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 50%;
   background-color: #EF4C4D;
   padding: 3%;
 }
-.descricao p{
+#descricao p{
   color: white;
 }
-.dev_fe{
+.layout{
+  display: flex;
   justify-content: center;
   width: 50%;
+  align-items: center;
+  flex-direction: column;
+  padding: 3%;
 }
-.dev_py{
-  justify-content: center;
-  width: 50%; 
+.teste{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 45%;
 }
-.descricao_container{
+.teste h3, h2{
+  margin: 0%;
+}
+.container{
   display: flex;
   background-color: white;
 }
-.skill{
-  display: flex;
-  background-color: white;
-}
-.skill h3{
+.container h3{
   color: black;
 }
-.skill h2{
+.container h2{
   color: #EF4C4D;
 }
