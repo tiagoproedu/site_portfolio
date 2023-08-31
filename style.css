@@ -14,8 +14,25 @@
 body{
   background-color: #373A5B;
 }
+.apresentacao{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 340px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+.apresentacao button{
+  width: 15%;
+  color: white;
+  border: solid #EF4C4D 3px;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 10px;
+}
 .apresentacao h1{
   color: white;
+  margin: 0;
 }
 .apresentacao p{
   color: #EF4C4D;
@@ -24,9 +41,11 @@ body{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
+  width: 45%;
   align-items: center;
   padding: 3%;
+  background-color: white;
+  margin-top: 2%;
 }
 #sobre h1{
   color: black;
@@ -38,7 +57,8 @@ body{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
+  width: 55%;
+  height: 100%;
   background-color: #EF4C4D;
   padding: 3%;
 }
@@ -52,19 +72,22 @@ body{
   align-items: center;
   flex-direction: column;
   padding: 3%;
+  background-color: white
 }
-.teste{
+.skill{
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 45%;
+  text-align: center;
+  background-color: white
 }
-.teste h3, h2{
+.skill h3, h2{
   margin: 0%;
 }
 .container{
   display: flex;
-  background-color: white;
+  background-color: #373A5B;
 }
 .container h3{
   color: black;
