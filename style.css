@@ -101,9 +101,17 @@ body{
   justify-content: center;
   align-items: center;
 }
+.exemplo_01{
+  display: flex;
+  justify-content: center;
+}
 .portfolio h1{
   color: white;
+  margin: 1%;
 }
 .portfolio h4{
   color: #EF4C4D;
+}
+.contatos h1{
+  color: white;
 }
